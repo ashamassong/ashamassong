@@ -1,0 +1,269 @@
+
+
+@font-face {
+  font-family: "quicksand-lt";
+  src: url(../fonts/Quicksand-Light.ttf);
+}
+@font-face {
+  font-family: "quicksand";
+  src: url(../fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+  font-family: "sofia";
+  src: url(../fonts/Sofia-Regular.ttf);
+}
+
+body {
+  background-color: #e6ffff; /* if colour is too light use:ccffff */
+    color: black;
+    width:100%;
+    }
+
+    #home img {
+      padding: 20px;
+      width: 100px;
+      height: 100px;
+    }
+
+    header {
+      background-image: url("../images/mountain_small.png");
+      background-repeat: no-repeat;
+      width:100%;
+      height:1500px;
+      background-position: center;
+      background-size: cover;
+    }
+    div  {
+      clear:both;
+    }
+
+    nav{
+      float: right;
+    padding: 50px;
+    }
+    nav a {
+      margin: 0px 20px;
+    }
+
+
+    a {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: black;
+      display: inline-block;
+      text-align: right;
+      font-family: "quicksand-lt";
+      font-size: 150%;
+      }
+
+    a:hover {
+      color: slateblue;
+      }
+
+
+
+      h1 {
+        color: black;
+        text-align: center;
+        font-family:sofia;
+        font-size: 10.0em;
+        font-size:7vw;
+        }
+
+      h2 {
+        color: black;
+        text-align: center;
+        font-family: "quicksand-lt";
+        font-size: 5.0em;
+        font-size:4.5vw;
+        }
+
+      h3 {
+        color: black;
+        text-align: center;
+        font-family:sofia;
+        font-size: 5.0em;
+        font-size:4.5vw;
+        }
+
+      #about div{
+        text-align: center;
+        display: inline-block;
+        }
+
+      #about {
+        overflow: auto;
+        text-align: center;
+        }
+
+      #me , #resume {
+        margin: 0px 50px;
+        width: 450px;
+        }
+
+      #me {
+        padding-top:50px;
+        display:block;
+        }
+
+      #resume img,  #me img{
+        width:180px;
+        }
+
+
+      p {
+        font-family: "quicksand-lt";
+        text-align: center;
+        line-height: 1.5;
+        font-size: 150%;
+        font-size:1.5vw;
+        }
+
+      #liscence {
+        background-color: #ccffff;
+        background-position: bottom;
+        color: black;
+        padding: 50px;
+        Margin: 0px;
+        text-align: center;
+        font-family: "quicksand";
+        font-size: 10%;
+        font-size:1vw;
+        }
+
+      #contact {
+        text-align: center;
+        margin: 0 auto;
+        display:block;
+        width: 40%;
+        overflow: auto;
+        }
+      #contact div img, #contact div p{
+        padding: 15px;
+        float:left;
+        }
+      #contact div img{
+        padding-bottom: 50px
+        }
+      #contact p {
+        font-family: "quicksand";
+        }
+
+      #work img {
+        width:489px;
+        }
+      #work {
+          text-align: center;
+        }
+
+      section {
+        margin: 0 auto;
+        }
+
+
+
+  /* RESPONSIVE DESIGN */
+
+  @media only screen and (max-width:1280px) {
+
+
+  }
+
+
+  @media only screen and (max-width:800px) {
+
+    #contact div img {
+      width: 50px;
+    }
+      #contact {
+        width: 45%;
+      }
+
+  }
+@media only screen and (max-width:320px) {
+
+    header {
+      background-image: url("../images/mountain_small.png");
+      background-repeat: no-repeat;
+      width:100%;
+      height:500px;
+      background-position: center;
+      background-size: cover;
+    }
+
+    #home img {
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+    }
+
+
+    a {
+      text-decoration: none;
+      text-transform: capitalize;
+      color: black;
+      display: inline-block;
+      text-align: right;
+      font-family: "quicksand-lt";
+      font-size: 80%;
+      }
+
+      nav{
+        float: right;
+        padding: 5px;
+        padding-top: 20px;
+        }
+      nav a {
+        margin: 0px 5px;
+        }
+
+    #work img{
+      width: 320px;
+    }
+
+    p {
+      font-size:4vw;
+    }
+
+    h1 {
+      font-size: 12vw;
+    }
+
+    h2 , h3 {
+      font-size:7vw;
+    }
+
+    #me , #resume {
+      margin: 0px 0px;
+      width: 300px;
+   }
+
+   #me img , #resume img {
+     margin: 0px 0px;
+     width: 130px;
+   }
+
+   #contact {
+     text-align: center;
+     margin: 0 auto;
+     display:block;
+     width: 100%;
+     overflow: auto;
+   }
+
+   #contact div img, #contact div p{
+     padding: 10px;
+     float:left;
+   }
+
+  #liscence {
+     background-color: #ccffff;
+     background-position: bottom;
+     color: black;
+     padding: 50px;
+     Margin: 0px;
+     text-align: center;
+     font-family: "quicksand-lt";
+     font-size: 3vw;
+  }
